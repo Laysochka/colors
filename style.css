@@ -1,0 +1,69 @@
+body{
+	background-color: #efd9d1
+}
+p#start {
+	cursor: pointer;
+	 color: #583d72;
+	font-family: 'Andale Mono', monospace;
+	font-size: 40px;
+	width : 20vw;
+	position: absolute;
+	text-align: center;
+	top : 5vh;
+	left : 40vw;
+	margin: 0px;
+}
+p#level{
+	color: #583d72;
+ font-family: 'Andale Mono', monospace;
+ font-size: 20px;
+ width : 10vw;
+ position: absolute;
+ text-align: center;
+ top : 30vh;
+ left : 40vw;
+ margin: 0px;
+
+}
+#colors {
+		float: left;
+		overflow: hidden;
+		width: 280px;
+		margin-left : 40vw;
+		margin-top : 40vh;
+	}
+	#colors li  {
+		background-color: #583d72;
+		color: black;
+		font-size: 30px;
+		line-height: 100px;
+		list-style-position: inside;
+		list-style-type: none;
+		height: 100px;
+		float: left;
+		width: 100px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	#colors li.one {
+		background-color: #9f5f80;
+	}
+	#colors li.two {
+		background-color: #ffba93;
+	 }
+	#colors li.three {
+		 background-color: #ff8e71;
+	 }
+	#colors li.on {
+		background-color: black;
+	}
+
+	p#start:hover {
+		 text-decoration: underline;
+	  }
+	.playing #colors li {
+		cursor: pointer;
+	}
+	#gameover {
+		display: none;
+	}
